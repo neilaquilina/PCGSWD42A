@@ -14,6 +14,8 @@ public class W02 : MonoBehaviour
        // transform.Rotate(0,0, 30f);
         //Show_Q02("Mario");
         //Show_Q02(35);
+
+        
         
 
     }
