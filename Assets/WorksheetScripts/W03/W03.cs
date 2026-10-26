@@ -15,7 +15,7 @@ public class W03 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Keyboard.current.leftArrowKey.isPressed)
+        if (Keyboard.current.leftArrowKey.isPressed)
         {
             transform.Translate(-movement, 0f, 0f);
         }
@@ -23,7 +23,7 @@ public class W03 : MonoBehaviour
         if (Keyboard.current.rightArrowKey.isPressed)
         {
             transform.Translate(movement, 0f, 0f);
-        }*/
+        }
     }
 
     //Q01: Create code to move an object left and right only using 

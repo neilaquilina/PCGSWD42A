@@ -144,13 +144,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135431091}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe2a194487acde34490fd057442ecd7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Driver
-  moveSpeed: 0.05
-  steerSpeed: 0.5
+  moveSpeed: 10
+  steerSpeed: 150
 --- !u!212 &135431093
 SpriteRenderer:
   serializedVersion: 2
@@ -459,6 +459,9 @@ GameObject:
   - component: {fileID: 1561443190}
   - component: {fileID: 1561443191}
   - component: {fileID: 1561443192}
+  - component: {fileID: 1561443193}
+  - component: {fileID: 1561443194}
+  - component: {fileID: 1561443195}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -571,11 +574,47 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561443187}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3059f69e62f8be34ebaf7c3180412751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::W03
+--- !u!114 &1561443193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561443187}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89164f603211cd3489ee7bf7ae7ae860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::W03Q02
+--- !u!114 &1561443194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561443187}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6458d685bfba85459f437c1132082a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::W03Q03
+--- !u!114 &1561443195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561443187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519f5f90486c8324c9824e847dff77a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::W03Q04
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

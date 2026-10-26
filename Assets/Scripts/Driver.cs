@@ -18,6 +18,7 @@ public class Driver : MonoBehaviour
     {
         float move = 0f;
         float steer = 0f;
+        
 
         if (Keyboard.current.wKey.isPressed)
         {
@@ -39,8 +40,11 @@ public class Driver : MonoBehaviour
             steer = -1f;
         }
 
-        transform.Rotate(0, 0, steer * steerSpeed);
-        transform.Translate(0, move * moveSpeed, 0);
+        float moveAmount = move * moveSpeed * Time.deltaTime;
+        float steerAmount = steer * steerSpeed * Time.deltaTime;
+
+        transform.Rotate(0, 0, steerAmount);
+        transform.Translate(0, moveAmount, 0);
     }
 
 
